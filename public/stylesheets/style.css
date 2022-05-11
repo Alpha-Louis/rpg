@@ -1,0 +1,9 @@
+@import "../bulma-divider.css";
+@import "../bulma-timeline.min.css";
+html {
+  background-image: url(/images/background.jpg);
+}
+
+#first, #second, #third, #fourth, #fifth, #sixth {
+  height: 100vh;
+}

@@ -1,0 +1,385 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+  <section class="section">
+      <div class="container has-text-centered content">
+      <h1 class="title has-text-light">
+          <i class="fa-solid fa-crown"></i> Chivalry Hero <i class="fa-solid fa-crown"></i>
+      </h1>
+      </div>
+  </section>
+  <section class="section content container" id="first">
+      <div class="box m-0 mb-4">
+          <h1>Qui sommes-nous ?</h1>
+          <p> Nous sommes trois étudiants <strong>géniaux</strong>.
+          <br>Nous avons réalisé ce site pour ce projet de fin d'année.
+          </p>
+      </div>
+      <div class="columns">
+          <div class="column">
+              <div class="card">
+                  <div class="card-image py-5 has-background-dark has-text-light">
+                    <figure class="image is-4by3">
+                      <img class="" src="images/paul.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="media">
+                          <div class="media-content">
+                              <p class="title is-4">Paul Sinsoulieu</p>
+                              <p class="subtitle is-6">UI Designer / Quest creator</p>
+                          </div>
+                      </div>
+                      <div class="content">
+                          Responsable du design et de la création de l'interface.
+                          Responsable des quêtes, et sauvegardes. <a>En savoir plus</a>.
+                          <br>
+                      </div>
+                  </div>
+                </div>
+          </div>
+          <div class="column">
+              <div class="card">
+                  <div class="card-image py-5 has-background-dark has-text-light">
+                    <figure class="image is-4by3">
+                      <img src="images/louis.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="media">
+                          <div class="media-content">
+                              <p class="title is-4">Louis Lions</p>
+                              <p class="subtitle is-6">Map designer / Camera Manager</p>
+                          </div>
+                      </div>
+                      <div class="content">
+                          Responsable de la Map, de la caméra, et des différents élements de décoration.
+                          <br><a>En savoir plus</a>.
+                          <br>
+                      </div>
+                  </div>
+                </div>
+          </div>
+          <div class="column">
+              <div class="card">
+                  <div class="card-image py-5 has-background-dark has-text-light">
+                    <figure class="image is-4by3">
+                      <img src="images/thomas.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="media">
+                          <div class="media-content">
+                              <p class="title is-4">Thomas Wozniak</p>
+                              <p class="subtitle is-6">Enemy and NPC Manager</p>
+                          </div>
+                      </div>
+                      <div class="content">
+                          Responsable de la création des ennemis et des PNJ.
+                          Création des mouvements du monstre.<br><a>En savoir plus</a>.
+                          <br>
+                      </div>
+                  </div>
+                </div>
+          </div>
+          <div class="column">
+              <div class="card">
+                  <div class="card-image py-5 has-background-dark has-text-light">
+                    <figure class="image is-4by3">
+                      <img src="images/flavien.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="media">
+                          <div class="media-content">
+                              <p class="title is-4">Flavien Vanpevenage</p>
+                              <p class="subtitle is-6">Collision & Animation Manager</p>
+                          </div>
+                      </div>
+                      <div class="content">
+                          Responsable de la création des collisions et des animations.
+                          Responsable des Mouvements du personnage.<a>En savoir plus</a>.
+                      </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+      <div class="has-text-centered">
+        <a href="#second" class="button is-light is-outlined is-rounded">Il était une fois...</a>
+      </div>
+
+  </section>
+  <section class="section content container" id="second">
+      <div class="box has-background-dark has-text-light">
+          <h1 class="has-text-light">Il était une fois un chevalier...</h1>
+          <div class="divider is-left"></div>
+          <p class="is-size-5"> Notre jeu, est accès sur un personnage principal à la facon de Don Quijote de la mancha. </p>
+          <div class="columns">
+            <div class="column is-one-third">
+              <figure class="image">
+                <img src="images/player.png">
+              </figure>
+            </div>
+            <div class="column">
+              <p class="is-size-5">
+                <b>Idée du jeu :</b>
+                <br> Vous incarnez un chevalier amnésique, en quête de ses souvenir, découvrant qu'une menace plane sur le royaume.<br>
+                <spa class="is-size-5"><b>Personnages :</b></span>
+                <br> Sur la map, vous retrouverez un mystérieux chevalier, lequelle vous donnera différentes quêtes.<br>
+                <spa class="is-size-5"><b>Univers :</b></span>
+                <br> Le monde dans lequel évolue le joueur est un monde plutôt retro, verduré, avec la présence d'une rivière mignonne, rappelant l'importance de la nature.
+            </div>
+          </div>
+      </div>
+      <div class="has-text-centered">
+        <a href="#third" class="button is-light is-outlined is-rounded">Organisation / Timeline</a>
+      </div>
+  </section>
+  <section class="section content container" id="third">
+    <div class="box">
+      <h1 class=>Organisation / Timeline</h1>
+      <div class="divider is-left"></div>
+      <div class="timeline">
+        <header class="timeline-header">
+          <span class="tag is-medium is-dark">Début</span>
+        </header>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="heading">Mars 2022</p>
+            <p>Début du projet - Recherche des images/personnages</p>
+          </div>
+        </div>
+        <header class="timeline-header">
+          <span class="tag is-dark">Avril</span>
+        </header>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="heading">Début Avril 2022</p>
+            <p>Répartition des tâches, début de la map</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="heading">Mi/Fin Avril 2022</p>
+            <p>Début des menus, et de l'interface utilisateur</p>
+          </div>
+        </div>
+        <header class="timeline-header">
+          <span class="tag is-dark">Mai</span>
+        </header>
+        <div class="timeline-item">
+          <div class="timeline-marker is-icon">
+            <i class="fa-solid fa-hand"></i>
+          </div>
+          <div class="timeline-content">
+            <p class="heading">Début Mai : RUSH</p>
+            <p>Rush global : création des mouvements, jouabilité, quêtes et caméra</p>
+          </div>
+        </div>
+        <div class="timeline-header">
+          <span class="tag is-medium is-dark">Fin</span>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-centered">
+      <a href="#fourth" class="button has-text-dark is-rounded">Démonstration technique</a>
+    </div>
+  </section>
+  <section class="section content container" id="fourth">
+    <div class="columns">
+      <div class="column is-one-third is-offset-one-third">
+        <div class="box has-text-centered has-background-dark">
+          <h1 class="has-text-light">C'est l'heure de la démonstration !!!</h1>
+          <img class="is-centered" src="https://media2.giphy.com/media/1XdfVRTyn5d31Q1lG0/giphy.gif?cid=790b76113ebbb7e59dc466096757e4b969f28ee7d20be4a4&rid=giphy.gif">
+        </div>
+      </div>
+    </div>
+    <div class="has-text-centered">
+      <a href="#fifth" class="button is-light is-outlined is-rounded">Difficultés rencontrées</a>
+    </div>
+  </section>
+  <section class="section content container" id="fifth">
+    <div class="box has-background-dark has-text-light">
+      <h1 class="has-text-light">Difficultés rencontrées</h1>
+      <div class="divider is-left"></div>
+      <div class="columns is-vcentered mt-2">
+        <div class="column is-2">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="images/louis.png">
+          </figure>
+        </div>
+        <div class="column">
+          <p class="is-size-5">
+            <b>Louis :</b>
+            <br>Faire en sorte que la caméra suive le joueur.</br>
+          </p>
+        </div>
+      </div>
+    <div class="columns is-vcentered">
+        <div class="column is-2">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="images/paul.png">
+          </figure>
+        </div>
+        <div class="column">
+          <p class="is-size-5">
+            <b>Paul :</b>
+            <br>Faire les sauvegardes, trouver un thème de menu.</br>
+          </p>
+        </div>
+    </div>
+    <div class="columns is-vcentered">
+        <div class="column is-2">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="images/thomas.png">
+          </figure>
+        </div>
+        <div class="column">
+          <p class="is-size-5">
+            <b>Thomas :</b>
+            <br>Gérer les mouvements du squelettes sur la map.</br>
+          </p>
+        </div>
+    </div>
+    <div class="columns is-vcentered">
+        <div class="column is-2">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="images/flavien.png">
+          </figure>
+        </div>
+        <div class="column">
+          <p class="is-size-5">
+            <b>Flavien :</b>
+            <br>Merger/Utiliser github, et gérer les collisions.</br>
+          </p>
+        </div>
+    </div>
+    <div class="has-text-centered">
+      <a href="#sixth" class="button is-light is-outlined is-rounded">Merci...</a>
+    </div>
+  </section>
+  <section class="section content container" id="sixth">
+    <div class="box has-text-centered  has-text-light has-background-dark">
+      <h1 class="has-text-centered has-text-light">Merci à tous !</h1>
+      <p> le lien du site : rpg.l-lions.fr </p>
+      <div class="columns">
+        <div class="column is-one-third is-offset-one-third">
+          <img src="https://media4.giphy.com/media/Pnh0Lou03fv92J4puZ/giphy.gif?cid=ecf05e47e0mj4dwgxv24cyjajza3epr8qd2kzsp1tr71ysv9&rid=giphy.gif">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section content container" id="seven">
+    <div class="box has-background-dark has-text-light">
+      <h1 class="has-text-light">Git shortlog</h1>
+      <div class="divider is-left"></div>
+      <pre class="has-background-dark has-text-light">
+        Louis-Lions-Epi (28):
+            [~] good name for the binary
+            [+] start of reading file
+            [+] calc folder, maps folder, map_reader functions
+            [+] added unit test
+            [+] added function to auto detect .c files in Makefile
+            [+] spritesheet for earth
+            [+] continue of analysis of map to transform in sprites
+            + map reader and ~ some files
+            + stone sprite text
+            modified map
+            test
+            + some sprites
+            + calc for collisions
+            merge
+            - dsiplay col
+            ~ resolving warnings for map part
+            resolve calc bug
+            + define NB_TILES
+            + start of collision system
+            ~ calc collision
+            + added decoration elements to the map
+            + champignons deco
+            ~ changed NB_CALC VALUE
+            + elem files
+            + more deco
+            + view system
+            + zoomed map
+            ~ modified color for background invé
+            changed collision
+
+        Paul (43):
+              [+] Basic files, libs, includes, structures.
+              [+] Main menu with buttons (not working for the moment) and background. Initialisation of menus' structure
+              [+] Malloc verification for par *p
+              [+] Pause menu buttons
+              [+] Add the destroy function for the pause menu
+              [+] how to play menu + remove a crash for the pause menu and an uninitialized value for p->scene_nb
+              [+] New str word array
+              [+] Beginning of buttons working
+              [+] Buttons work
+              [+] calc
+              Merge remote-tracking branch 'refs/remotes/origin/main'
+              [+] Beginning of Health and Stamina.
+              [~] File organization
+              [+] We can now change health and stamina bars.
+              [+] Inventory bar
+              [+] Inventory cases have now an id
+              [+] Options menu
+              [~] There are no warning anymore
+              [~] Fix a crash in map_reader
+              [+] We can now get mushrooms.
+              [+] Merge main and map
+              [+] Fixed an uninitialized value in display
+              [+] Sword on the map, we can get it
+              [-] limbaths.a
+              [~] Coding Style Fix
+              [+] Music and sounds files
+              [+] Musics and sounds
+              [-] .o files
+              [~] Fix a problem, the music sometimes wasn't played
+              [+] Beginning of quests integration.
+              [+] QUESTS
+              [+] Quest 3 tp the player in the arena
+              [+] Background image for menus
+              [~] CStyle in display.c
+              [+] Collisions for a tree, a stone and the npc
+              [+] Add pause menu in the arena, fix a bug with the menus
+              [+][~] We can now save player's position ; Changed menus colors
+              [+] We can now save the actual scene (map, arena or main menu)
+              [~] Fix a little problem when we tried to save when we are in the main menu
+              [-] Remove the function that displayed the hitboxes
+              [~] CS Fix in save_resume.c, closed the file in read_file
+              [~] Fix the warnings in some files
+              [~] CS Fix in engine
+
+        Thomas Wozniak (6):
+              [+] begin sprite
+              [~] fix coding style
+              [+] ennemy
+              [+] png_sprite
+              [+] monster
+              [+] monster
+
+        flaviendu60 (17):
+              [~] fix creat_vectors types
+              [~] fps handling
+              [+] annemies sprite
+              [+] rpg image bank
+              [+~] better fps handling
+              [~] player sprite / animation setup
+              Merge branch 'main' of github.com:EpitechPromo2026/B-MUL-200-LIL-2-1-myrpg-paul.sinsoulieu player sprite setup
+              [~+] player initialisation integration
+              [~] first charactere movement
+              [~+] player animation and poor collisions
+              Merge branch 'main' of github.com:EpitechPromo2026/B-MUL-200-LIL-2-1-myrpg-paul.sinsoulieu pull map modifs
+              [~+] add mathematic lib and good player's movements / collides
+              [~] good diagonal speed + global speed changes
+              [~] collisions right and down fix
+              Merge branch 'main' of github.com:EpitechPromo2026/B-MUL-200-LIL-2-1-myrpg-paul.sinsoulieu
+              [~] arena + player on it
+              [~] player attack (enemy hp reduce only)
+      </pre>
+    </div>
+  </section>
+{% endblock %}
